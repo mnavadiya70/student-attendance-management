@@ -1,3 +1,7 @@
+body{
+  background-color: black;
+}
+
 .App {
   text-align: center;
 }
@@ -6,6 +10,24 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+
+.closemenu {
+  color: #fff;
+  position: absolute;
+  right: 0;
+  z-index: 9999;
+  line-height: 20px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 22px;
+  /* top: 0px; */
+  cursor: pointer;
+}
+
+/* .MuiPaper-rounded{
+  border-radius: 0px;
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
